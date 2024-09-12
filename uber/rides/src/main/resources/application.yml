@@ -1,0 +1,12 @@
+server:
+  port: 9200
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/driver?useSSL=false
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
